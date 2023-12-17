@@ -1,0 +1,107 @@
+2023-12-17 20:12:13.882 [INFO] com.sprint.InsuranceProcessingApplicationTests [main] Starting InsuranceProcessingApplicationTests using Java 17.0.8.1 with PID 28364 (started by thulasd in C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing)
+2023-12-17 20:12:13.885 [INFO] com.sprint.InsuranceProcessingApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-17 20:12:15.588 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 20:12:15.738 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 129 ms. Found 7 JPA repository interfaces.
+2023-12-17 20:12:17.684 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 20:12:17.904 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-17 20:12:18.012 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-17 20:12:18.274 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-17 20:12:18.346 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-17 20:12:18.970 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e030cc1
+2023-12-17 20:12:18.978 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-17 20:12:22.317 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-17 20:12:22.624 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:12:26.764 [INFO] com.sprint.InsuranceProcessingApplicationTests [main] Started InsuranceProcessingApplicationTests in 13.72 seconds (process running for 19.7)
+2023-12-17 20:12:26.980 [INFO] com.app.controller.PolicyHolderController [main] Fetching policy holder by ID:
+2023-12-17 20:12:26.993 [INFO] com.app.controller.PolicyHolderController [main] Fetching all policy holders
+2023-12-17 20:12:27.010 [INFO] com.app.controller.PolicyController [main] Fetching policy by ID
+2023-12-17 20:12:27.015 [INFO] com.app.controller.PolicyController [main] Fetching all policies
+2023-12-17 20:12:27.035 [INFO] com.app.controller.PremiumController [main] Fetching premium by ID
+2023-12-17 20:12:27.048 [INFO] com.app.controller.PremiumController [main] Fetching all premiums
+2023-12-17 20:12:27.122 [INFO] com.app.controller.ReviewController [main] Fetching all reviews
+2023-12-17 20:12:27.193 [INFO] com.app.controller.UserController [main] Fetching all users
+2023-12-17 20:12:27.200 [INFO] com.app.controller.UserController [main] Fetching user by ID
+2023-12-17 20:12:27.251 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:12:27.257 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-17 20:12:27.281 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-17 20:17:43.450 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] Starting InsuranceProcessingApplication using Java 17.0.8.1 with PID 28648 (C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing\target\classes started by thulasd in C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing)
+2023-12-17 20:17:43.455 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-17 20:17:43.593 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-17 20:17:43.593 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-17 20:17:45.044 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 20:17:45.213 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 148 ms. Found 7 JPA repository interfaces.
+2023-12-17 20:17:47.304 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2023-12-17 20:17:47.327 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-17 20:17:47.328 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-17 20:17:47.473 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-17 20:17:47.474 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3880 ms
+2023-12-17 20:17:47.826 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 20:17:47.987 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-17 20:17:48.096 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-17 20:17:48.698 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-17 20:17:48.781 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-12-17 20:17:49.224 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@178e8250
+2023-12-17 20:17:49.228 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-12-17 20:17:51.290 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-17 20:17:51.469 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:17:53.842 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-17 20:17:53.957 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2023-12-17 20:17:53.991 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] Started InsuranceProcessingApplication in 11.457 seconds (process running for 12.573)
+2023-12-17 20:18:03.474 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-17 20:18:03.475 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-12-17 20:18:03.476 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-12-17 20:18:05.624 [INFO] org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-8] Init duration for springdoc-openapi is: 1519 ms
+2023-12-17 20:39:26.842 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-12-17 20:39:26.885 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:39:26.899 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-12-17 20:39:26.963 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-12-17 20:39:27.208 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] Starting InsuranceProcessingApplication using Java 17.0.8.1 with PID 28648 (C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing\target\classes started by thulasd in C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing)
+2023-12-17 20:39:27.211 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-17 20:39:27.991 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 20:39:28.061 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 7 JPA repository interfaces.
+2023-12-17 20:39:28.714 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2023-12-17 20:39:28.715 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-17 20:39:28.716 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-17 20:39:28.821 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-17 20:39:28.823 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1604 ms
+2023-12-17 20:39:29.025 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 20:39:29.043 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-17 20:39:29.084 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-17 20:39:29.086 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-12-17 20:39:29.470 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@15f41748
+2023-12-17 20:39:29.471 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-12-17 20:39:29.883 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-17 20:39:30.061 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:39:31.225 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-17 20:39:31.284 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2023-12-17 20:39:31.309 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] Started InsuranceProcessingApplication in 4.171 seconds (process running for 1309.922)
+2023-12-17 20:39:31.313 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-12-17 20:39:32.756 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-12-17 20:39:32.783 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:39:32.785 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-12-17 20:39:32.794 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-12-17 20:39:33.016 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] Starting InsuranceProcessingApplication using Java 17.0.8.1 with PID 28648 (C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing\target\classes started by thulasd in C:\InsuranceProcessingSystem\InsuranceProcessing\InsuranceProcessing)
+2023-12-17 20:39:33.017 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-17 20:39:33.438 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 20:39:33.488 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 49 ms. Found 7 JPA repository interfaces.
+2023-12-17 20:39:33.794 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2023-12-17 20:39:33.796 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-12-17 20:39:33.797 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-17 20:39:33.891 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-17 20:39:33.892 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 870 ms
+2023-12-17 20:39:33.967 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 20:39:33.977 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2023-12-17 20:39:33.985 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-17 20:39:33.987 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-12-17 20:39:34.162 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@58997d70
+2023-12-17 20:39:34.163 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-12-17 20:39:34.374 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-17 20:39:34.519 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:39:35.359 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-17 20:39:35.412 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2023-12-17 20:39:35.431 [INFO] com.sprint.InsuranceProcessingApplication [restartedMain] Started InsuranceProcessingApplication in 2.506 seconds (process running for 1314.044)
+2023-12-17 20:39:35.435 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-12-17 21:03:33.939 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-17 21:03:33.940 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-12-17 21:03:33.942 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2023-12-17 22:28:44.225 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h11m9s522ms211µs700ns).
